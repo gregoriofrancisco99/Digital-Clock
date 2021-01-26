@@ -9,7 +9,7 @@
 }
 
 #period {
-    font-family: 'PoppinsR';
+    font-family: 'Poppins', sans-serif;
     transform: rotate(90deg);
     font-size: 0.35em;
     text-transform: lowercase;
@@ -19,7 +19,8 @@
     bottom: 0.8em;
 }
 #date{
-    font-family: 'PoppinsR';
+    font-family: 'Poppins',
+    sans-serif;
     color: #fff;
     font-size: 0.22em;
     position: absolute;
