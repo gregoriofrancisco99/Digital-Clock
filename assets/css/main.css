@@ -122,10 +122,35 @@ footer{
 		width: 90px;
 	}
 }
-@media(device-width: 720px) {
+@media(device-width: 1024px) {
 	.clock {
-		top: 1.5em;
-		left: -0.25em;
+		top: 4.1em;
+		left: -0.4em;
+		font-size: 7em;
+	}
+
+	.message {
+		font-size: 1.3em;
+	}
+
+	footer p {
+		font-size: 1.2em;
+	}
+
+	.theme-switches{
+		width: 5em;
+		height: 2.5em;
+	}
+	.switch {
+		height: 20px;
+		width: 30px;
+		margin: 5px;
+	}
+}
+@media(device-width: 768px) {
+	.clock {
+		top: 1.1em;
+		left: 0em;
 		font-size: 10em;
 	}
 
@@ -148,8 +173,52 @@ footer{
 		left: 0.1em;
 		font-size: 6em;
 	}
-
+	aside {
+		display: none;
+	}
 	.message {
 		padding-top: 0.4em;
+	}
+}
+@media(device-width: 320px) {
+	.clock {
+		top: 0.8em;
+		left: -0.3em;
+		font-size: 4.6em;
+	}
+
+	aside {
+		display: none;
+	}
+
+	.message {
+		height: 1.9em;
+	}
+
+	.message p {
+		font-size: 0.9em;
+	}
+
+	footer {
+		font-size: 0.7em;
+	}
+}
+@media(device-width: 240px) {
+	.clock {
+		top: 0.8em;
+		left: -0.3em;
+		font-size: 3.5em;
+	}
+	aside{
+		display: none;
+	}
+	.message {
+		height: 1.2em;
+	}
+	.message p{
+		font-size: 0.6em;
+	}
+	footer{
+		font-size: 0.7em;
 	}
 }
