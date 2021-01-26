@@ -16,16 +16,16 @@
     display: inline-flex;
     position: relative;
     right: 1em;
-    bottom: 0.8em;
+    bottom: 0.9em;
 }
 #date{
-    font-family: 'Poppins',
-    sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
     font-size: 0.22em;
     position: absolute;
     top: 5.5em;
-    right: 10.17em;
+    right: 10.2em;
+    opacity: 0.5;
 }
 #date:hover{
     transform: scale(1.3);
