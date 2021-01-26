@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PT-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/switcher.css">
+    <link rel="stylesheet" href="assets/css/clock.css">
+    <link rel="stylesheet" id="switcher-id" href="">
+    <script src="assets/js/digitalClock.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+  <main>
+    <header class="message">
+      <div class="message">
+        <p id="message">Estamos adicionando calendários pra você!</p>
+      </div>
+    </header>
+    <aside>
+      <div class="theme-switches">
+        <div data-theme="light" class="switch" id="switch-1"></div>
+        <div data-theme="dark" class="switch" id="switch-2"></div>
+      </div>
+    </aside>
+
+    <section class="clock">
+      <div>
+        <span id="hour"></span>
+        <span id="secs">&colon;</span>
+        <span id="mins"></span>
+        <span id="period"></span>
+        <span id="date"></span>
+      </div>
+    </section>
+    
+  </main>
+  </div>
+  <footer>
+    <p>Todos direitos reservados &copy;</p>
+  </footer>
+  <script src="assets/js/themeSwitcher.js"></script>
+  <script>clock();</script>
+  <script src="assets/js/printToday.js"></script>
+  
+</body>
+</html>

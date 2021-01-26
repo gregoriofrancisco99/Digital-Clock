@@ -1,0 +1,36 @@
+.theme-switches {
+    background-color: indigo;
+    opacity: 0.45;
+    padding: 0.2em 0 0.2em 0;
+    border-radius: 1em;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.theme-switches:hover {
+    opacity: 1;
+    transition: 0.35s ease-in-out;
+
+}
+
+.switch {
+    border: 3px solid black;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.switch:hover {
+    transform: scale(1.35);
+    transition: 0.3s ease-in-out;
+}
+
+#switch-1 {
+    background-color: #fff;
+}
+
+#switch-2 {
+    background-color: #000;
+}
