@@ -6,7 +6,8 @@
 	display: inline-block;
 	width: 100%;
 	height: 100vh;
-	font-family: "PoppinsSB", sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
 	background: url(../img/background.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -44,7 +45,8 @@ aside {
 	padding-top: 0.4em;
 	text-align: center;
 	color: #fff;
-	font-family: 'PoppinsR';
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
 	font-size: 1.3em;
 }
 footer{
