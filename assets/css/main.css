@@ -63,6 +63,31 @@ footer{
 		font-size: 9.5em;
 	}
 }
+@media(device-width: 1440px) {
+	.clock {
+		top: 1.2em;
+		left: -0.2em;
+		font-size: 15em;
+	}
+
+	.message {
+		font-size: 1.5em;
+	}
+
+	footer p {
+		font-size: 2em;
+	}
+
+	aside {
+		bottom: 1em;
+		right: 1em;
+	}
+
+	.switch {
+		height: 90px;
+		width: 90px;
+	}
+}
 @media(device-width: 1366px) {
 	.clock {
 		width: 5.5em;
@@ -92,31 +117,6 @@ footer{
 		bottom: 1em;
 		right: 1em;
 	}
-	.switch {
-		height: 90px;
-		width: 90px;
-	}
-}
-@media(device-width: 1440px) {
-	.clock {
-		top: 1.2em;
-		left: -0.2em;
-		font-size: 15em;
-	}
-
-	.message {
-		font-size: 1.5em;
-	}
-
-	footer p {
-		font-size: 2em;
-	}
-
-	aside {
-		bottom: 1em;
-		right: 1em;
-	}
-
 	.switch {
 		height: 90px;
 		width: 90px;
